@@ -30,7 +30,7 @@ CONFIG_FILE=~/.dropbox_uploader
 #Default chunk size in Mb for the upload process
 #It is recommended to increase this value only if you have enough free space on your /tmp partition
 #Lower values may increase the number of http requests
-CHUNK_SIZE=4
+CHUNK_SIZE=2
 
 #Set to 1 to enable DEBUG mode
 DEBUG=0
